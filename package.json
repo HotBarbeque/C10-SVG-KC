@@ -8,10 +8,15 @@
         "lib": "lib"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "start": "node lib/index.js"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "svg",
+        "logo",
+        "maker"
+    ],
+    "author": "Kyle Curry",
     "license": "ISC",
     "dependencies": {
         "inquirer": "^8.2.4"
